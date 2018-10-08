@@ -1,0 +1,279 @@
+/* * {
+  background-color: red;
+} */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  line-height: 110px; /* Vertically center the text there */
+  background-color: #505050;
+  text-align: center;
+  color: #bbbbbb;
+  border-top: 8px solid #4aaaa5;
+}
+
+.noVertPadding{
+  padding: 0px 16px;
+}
+
+/* .rightBorder{
+  /* border-right: 5px;
+  border-right-color: grey;
+  border-right-width: 1px;
+  border-right-style: solid;
+} */
+
+#name{
+  background-color: #4aaaa5;
+  float: left;
+  color: white;
+  padding: 16px 10px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../../assets/images/gravel.png);
+    padding-bottom: 60px;
+}
+
+#mainContainer{
+  margin: 50px auto;
+  padding: 35px;
+}
+
+#containerTitle{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* padding: 0px 15px; */
+  color: #4aaaa5;
+}
+
+p{
+  color: #777777;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.hrFat{
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin: 10px 0px 25px;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 2px;
+}
+
+.socialIcon{
+  width: 47px;
+  /*float: right;*/
+  margin: 0px 0px 0px 8px;
+  top: -10px;
+  right: 15px;
+  position: relative; 
+}
+
+.headshot{
+  margin: 0px 0px 20px;
+  /* display: block; */
+}
+
+/*
+
+#nav-container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.name{
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} */
+
+
+/* body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #dddddd;
+    padding-bottom: 60px;
+    background-image: url(../../assets/images/gravel.png);
+} 
+
+h1{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    color: #777777;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+#headerBox{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#name{
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    padding: 30px;
+}
+
+.menuButtons{
+    color: #777777;
+    text-decoration: none;
+}
+
+#menuBar{
+    float: right;
+    padding: 30px 0px 0px;
+}
+
+#menuBar a:hover{
+    color: black;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 40px 0px 5px;
+    background-color: #505050;
+    border-top: 8px solid #4aaaa5;
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+#content{
+    margin: 0px 0px auto 0px;
+    padding: 35px 0px;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #cccccc;
+}
+
+#contentBox{
+    width: 900px;
+    margin: auto;
+    padding: 35px 30px 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: thin;
+    border-color: #cccccc;
+}
+
+#sectionTitle{
+    color: #4aaaa5;
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    border-color: #cccccc;
+    padding: 0px 0px 25px;
+    margin: 0px 0px 25px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* about page */ /*
+
+.photoWithCitation{
+    color: black;
+    margin: 0px 25px 25px 0px;
+    font-size: 12px;
+    text-align: right;
+    float: left;
+}
+
+.photoCitation{
+    color: black;
+}
+
+/* portfolio page */ /*
+
+.portfolioBox{
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin: 0px 40px 50px 0px;
+    position: relative;
+}
+
+.portfolioTitle{
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.portfolioTitle a:hover{
+    color: black;
+}
+
+.portfolioLink{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    top: 20px;
+}
+
+/* contact page */ /*
+
+.contactForm{
+    width: 878px;
+    font-size: 14px;
+    padding: 10px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.tallContactForm{
+    height: 300px;
+    width: 880px;
+    border-color:#cccccc;
+}
+
+.button{
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: black;
+}
