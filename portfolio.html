@@ -1,68 +1,106 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-    <title>Portfolio of Alex Reventlow</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex,nofollow">
-    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+  <title>Alex Reventlow</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico">
 </head>
+
 <body>
-    <header class="clearfix">
-        <div id="headerBox">
-            <div id="name"><h1>Alex Reventlow</h1></div>
-            <div id="menuBar">
-                <p>
-                    <a href="./index.html" class="menuButtons">About</a> 
-                    &nbsp; | &nbsp; 
-                    <a href="./portfolio.html" class="menuButtons">Portfolio </a> 
-                    &nbsp; | &nbsp; 
-                    <a href="./contact.html" class="menuButtons">Contact</a>
-                </p>
-            </div>
-        </div>
-    </header>
-    <!-- The margins above this container were incosistant in the sample pages. I am assuming they should be consistant -->
-    <div id="content">
-        <div id="contentBox" class="clearfix">
-            <div id="sectionTitle"><h1>Portfolio</h1></div>
-            <!-- This link actually does something -->
-            <div class="portfolioBox">  
-                <img src="./assets/images/catscratch.jpg" class="portfolioImage" alt="Cat Scratch Game">
-                <div class="portfolioTitle">
-                    <a href="https://scratch.mit.edu/projects/246371322/" target="_blank" class="portfolioLink"><h2>Cat Scratch Game</h2></a>
-                </div>
-            </div>
-            <!-- Placeholders -->
-            <div class="portfolioBox">
-                <img src="./assets/images/skunk.jpg" class="portfolioImage" alt="Skunk">
-                <div class="portfolioTitle">
-                    <a href="#" class="portfolioLink"><h2>Stinky Blankets</h2></a>
-                </div>
-            </div>
-            <div class="portfolioBox">
-                <img src="./assets/images/garbage.jpg" class="portfolioImage" alt="Garbage">
-                <div class="portfolioTitle">
-                        <a href="#" class="portfolioLink"><h2>Fashion Week</h2></a>
-                </div>
-            </div>
-            <div class="portfolioBox">
-                <img src="./assets/images/eggs.jpg" class="portfolioImage" alt="Eggs">                
-                <div class="portfolioTitle">
-                        <a href="#" class="portfolioLink"><h2>Cooking in the Dryer</h2></a>
-                </div>
-            </div>
-            <div class="portfolioBox">
-                <img src="./assets/images/salad.jpg" class="portfolioImage" alt="Salad">
-                <div class="portfolioTitle">
-                        <a href="#" class="portfolioLink"><h2>Happy Salad People</h2></a>
-                </div>
-            </div>
-        </div>
-    </div>  
-    <footer>
-        Copywrite © 2018
-    </footer>
+
+<header id="whiteBackground">
+  <div class="container bg-white" id="navContainer">
+    <nav class="navbar navbar-expand-md navbar-light bg-white noVertPadding">
+      <a class="navbar-brand name" href="#">
+          <div id="nameTitle">
+            <h3 class="font-weight-bold">Alex Reventlow</h3>
+          </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link rightBorder" href="./index.html">&nbsp; About &nbsp;</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link rightBorder" href="./portfolio.html">&nbsp; Portfolio &nbsp; <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">&nbsp; Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <div class="container bg-white" id="mainContainer">
+    <div class="row" id="containerTitle">
+      <div class="col">
+        <h3 class="font-weight-bold">Portfolio</h3>
+      </div> 
+        <a href="#"><img src="assets/images/gi.jpg" class="rounded float-right socialIcon" alt="GitHub"></a>
+        <a href="#"><img src="assets/images/tw.jpg" class="rounded float-right socialIcon" alt="Twitter"></a>
+        <a href="#"><img src="assets/images/li.jpg" class="rounded float-right socialIcon" alt="LinkedIn"></a>
+    </div>
+    <div>
+      <hr class="hrFat">
+    </div>
+    <div class="row no-gutters">
+      <div class="col-md-5 col-sm-5 col-8 offset-md-0 offset-sm-0 offset-2">
+        <img src="./assets/images/catscratch.jpg" class="img-fluid vertPadding" alt="Cat Scratch Game">
+        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
+          Cat Scratch Game
+        </a>
+      </div>
+      <div class="col-md-5 col-sm-5 col-8 offset-md-1 offset-sm-1 offset-2">
+        <img src="./assets/images/skunk.jpg" class="img-fluid vertPadding" alt="Skunk">
+        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
+          Stinky Blankets
+        </a>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-md-5 col-sm-5 col-8 offset-md-0 offset-sm-0 offset-2">
+        <img src="./assets/images/garbage.jpg" class="img-fluid vertPadding" alt="Garbage">
+        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
+          Fashion Week
+        </a>
+      </div>
+      <div class="col-md-5 col-sm-5 col-8 offset-md-1 offset-sm-1 offset-2">
+        <img src="./assets/images/eggs.jpg" class="img-fluid vertPadding" alt="Garbage">
+        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
+          Fun with the Dryer
+        </a>
+      </div>
+    </div>    
+    <div class="row no-gutters">
+      <div class="col-md-5 col-sm-5 col-8 offset-md-0 offset-sm-0 offset-2">
+        <img src="./assets/images/salad.jpg" class="img-fluid vertPadding" alt="Garbage">
+        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
+          Happy Salad People
+        </a>
+      </div>      
+    </div>
+  </div>
+  
+        
+    
+  <footer class="footer">
+    <div class="container">
+      Copywrite © 2018
+    </div>
+  </footer>
+
 </body>
+
 </html>

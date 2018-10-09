@@ -15,30 +15,33 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light bg-white noVertPadding">
-    <a class="navbar-brand" id="name" href="#">
-        <div id="nameTitle">
-          <h3 class="font-weight-bold">Alex Reventlow</h3>
-        </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<header id="whiteBackground">
+  <div class="container bg-white" id="navContainer">
+    <nav class="navbar navbar-expand-md navbar-light bg-white noVertPadding">
+      <a class="navbar-brand" id="name" href="#">
+          <div id="nameTitle">
+            <h3 class="font-weight-bold">Alex Reventlow</h3>
+          </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link rightBorder" href="./index.html">&nbsp; About &nbsp; <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rightBorder" href="./portfolio.html">&nbsp; Portfolio &nbsp; </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">&nbsp; Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
 
   <div class="container bg-white" id="mainContainer">
     <div class="row" id="containerTitle">
@@ -54,14 +57,15 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="text-center float-md-left headshot">
-          <a href="https://www.reuters.com/news/picture/meeting-of-the-trekkies-idUSRTX2NXSA" target="_blank">
-            <img class="d-md-none" src="assets/images/reventlow.jpg" alt="Alex Reventlow">
-            <img class="d-none d-md-block" src="assets/images/reventlow.jpg" width="200">
-          </a>
-          <br>
-          Photo: <a href="https://www.reuters.com/news/picture/meeting-of-the-trekkies-idUSRTX2NXSA" target="_blank" class="photoCitation">REUTERS/Mark Kauzlarich</a>
-        </div>
+          <div class="text-center float-md-left headshot">
+            <a href="https://www.reuters.com/news/picture/meeting-of-the-trekkies-idUSRTX2NXSA" target="_blank">
+              <img class="d-md-none headshotLarge" src="assets/images/reventlow.jpg" width="400" alt="Alex Reventlow">
+              <img class="d-none d-md-block" src="assets/images/reventlow2.jpg" width="240" alt="Alex Reventlow">
+            </a>
+            <p class="text-right tinyFont">
+              Photo: <a href="https://www.reuters.com/news/picture/meeting-of-the-trekkies-idUSRTX2NXSA" target="_blank" class="photoCitation">REUTERS/Mark Kauzlarich</a>
+            </p>
+          </div>
         <p>While I'm originally from Brooklyn, New York, I recently moved to Austin Texas. Before moving, I spent 20 years working in the financial sector. In that time, I’ve held jobs ranging from Help Desk Analyst up to Vice President of Information Technology. I’ve done everything from desktop support to managing a real-time equity trading and accounting platform.</p>
         <p>I spend most of my free time tinkering with old computer hardware, hacking old video game consoles to work with my modern HD TV, and being generally disappointed in the performance of the New York Mets.</p>
         <p>Lately, I’ve been putting a fair amount of time into brushing up on my web development skills. Here you’ll find a list some of my more recent projects along with links to my github and social media accounts.</p>

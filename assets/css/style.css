@@ -1,48 +1,104 @@
-/* * {
-  background-color: red;
-} */
+body{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url(../../assets/images/gravel.png);
+  /* background-color: #4aaaa5; */
+  padding-bottom: 60px;
+}
 
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 80px;
-  line-height: 110px; /* Vertically center the text there */
+  height: 65px;
+  line-height: 90px; /* Vertically center the text there */
   background-color: #505050;
   text-align: center;
   color: #bbbbbb;
   border-top: 8px solid #4aaaa5;
+  font-size: 14px;
 }
 
 .noVertPadding{
-  padding: 0px 16px;
+  padding: 0px 0px; /* 0 16 */
 }
 
-/* .rightBorder{
-  /* border-right: 5px;
-  border-right-color: grey;
+.vertPadding{
+  padding: 5px 0px 40px;
+}
+
+#noPadding{
+  padding: 0px;
+  margin: 0;
+}
+
+.rightBorder{
+  /* border-right: 510px; */
+  border-right-color: #dddddd;
   border-right-width: 1px;
   border-right-style: solid;
-} */
+  padding: 0px;
+  margin: 8px 0px;
+  /* font-size: 20pt !important; */
+}
 
-#name{
+.nav-item {
+  font-size: 20px;
+  /* padding-right: 20px; */
+  /* padding-left: 20px; */
+}
+
+.name{
   background-color: #4aaaa5;
   float: left;
-  color: white;
-  padding: 16px 10px 10px;
+  color: white !important;
+  padding: 26px 37px 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-body{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(../../assets/images/gravel.png);
-    padding-bottom: 60px;
+.btn-primary{
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20pt;
+}
+
+.btn-primary:hover{
+  background-color: #398583;
+  border-color: #398583;
+  color: black;
+  text-decoration: none;
+}
+
+.btnLinkColor{
+  color: green;
+  
+}
+
+.btnLinkColor:hover{
+  color: black;
+  
+}
+
+#navContainer{
+  
+  /* background-color: #ffffff; */
+  padding: 0px;
+}
+
+header{
+  background-color: white;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #cccccc;
 }
 
 #mainContainer{
   margin: 50px auto;
   padding: 35px;
+  border-style: solid;
+    border-width: thin;
+    border-color: #cccccc;
 }
 
 #containerTitle{
@@ -65,10 +121,12 @@ p{
   margin-block-end: 0.5em;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  margin: 10px 0px 25px;
+  margin: 10px 0px 20px;
   overflow: hidden;
   border-style: inset;
   border-width: 2px;
+  color: #cccccc;
+  background-color: #cccccc;
 }
 
 .socialIcon{
@@ -81,199 +139,72 @@ p{
 }
 
 .headshot{
-  margin: 0px 0px 20px;
+  margin: 5px 15px 0px 0px;
   /* display: block; */
+
 }
 
-/*
-
-#nav-container{
-    width: 960px;
-    margin: 0 auto;
+.headshotLarge{
+  margin-bottom: 0px;
 }
 
-.name{
-    background-color: #4aaaa5;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-} */
-
-
-/* body{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 0px;
-    background-color: #dddddd;
-    padding-bottom: 60px;
-    background-image: url(../../assets/images/gravel.png);
-} 
-
-h1{
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 28px;
-    font-weight: bold;
+.tinyFont{
+  font-size: 10pt;
+  line-height: 100%;
+  margin-bottom: 5px;
+  margin-top: 3px;
 }
 
-h2{
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 20px;
-    font-weight: bold;
+.photoCitation {
+  color: black;
 }
 
-p{
-    color: #777777;
-    font-size: 18px;
-    line-height: 150%;
-    margin-bottom: 20px;
-}
-
-header{
-    background-color: #ffffff;
-}
-
-#headerBox{
-    width: 960px;
-    margin: 0 auto;
-}
-
-#name{
-    background-color: #4aaaa5;
-    float: left;
-    color: white;
-    padding: 30px;
-}
-
-.menuButtons{
-    color: #777777;
-    text-decoration: none;
-}
-
-#menuBar{
-    float: right;
-    padding: 30px 0px 0px;
-}
-
-#menuBar a:hover{
-    color: black;
-}
-
-footer{
+.caption {
+    position: absolute;
+    top: 55%;
+    left: 0;
     width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    padding: 40px 0px 5px;
-    background-color: #505050;
-    border-top: 8px solid #4aaaa5;
-    color: #bbbbbb;
-    font-size: 14px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
 }
 
-#content{
-    margin: 0px 0px auto 0px;
-    padding: 35px 0px;
-    border-style: solid;
-    border-width: 3px 0px 0px 0px;
-    border-color: #cccccc;
-}
-
-#contentBox{
-    width: 900px;
-    margin: auto;
-    padding: 35px 30px 20px;
-    background-color: #ffffff;
-    border-style: solid;
-    border-width: thin;
-    border-color: #cccccc;
-}
-
-#sectionTitle{
-    color: #4aaaa5;
-    border-style: solid;
-    border-width: 0px 0px 3px;
-    border-color: #cccccc;
-    padding: 0px 0px 25px;
-    margin: 0px 0px 25px;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* about page */ /*
-
-.photoWithCitation{
-    color: black;
-    margin: 0px 25px 25px 0px;
-    font-size: 12px;
-    text-align: right;
-    float: left;
-}
-
-.photoCitation{
-    color: black;
-}
-
-/* portfolio page */ /*
-
-.portfolioBox{
-    width: 280px;
-    height: 200px;
-    float: left;
-    margin: 0px 40px 50px 0px;
-    position: relative;
+.portfolioTitleLocation{
+    position: absolute;
+  top: 55%;
+ 
 }
 
 .portfolioTitle{
-    width: 280px;
-    height: 60px;
-    position: absolute;
-    bottom: 10px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 55%;
+  padding: 10px 0px 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
 }
 
 .portfolioTitle a:hover{
-    color: black;
+  color: black;
 }
 
-.portfolioLink{
-    text-decoration: none;
-    color: #ffffff;
-    position: relative;
-    top: 20px;
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
 }
 
-/* contact page */ /*
-
-.contactForm{
-    width: 878px;
-    font-size: 14px;
-    padding: 10px;
-    color: #777777;
-    margin-bottom: 10px;
+@media (max-width: 768px){
+  .btn-primary{
+    font-size: 14pt;
+  }
 }
 
-.tallContactForm{
-    height: 300px;
-    width: 880px;
-    border-color:#cccccc;
-}
-
-.button{
-    background-color: #4aaaa5;
-    border: none;
-    color: #ffffff;
-    padding: 12px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 0px;
-    cursor: pointer;
-}
-
-.button:hover{
-    color: black;
+@media (min-width: 992px) {
+  .btn-primary{
+    font-weight: bold;
+  }
 }
