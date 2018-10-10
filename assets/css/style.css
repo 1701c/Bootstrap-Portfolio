@@ -172,7 +172,6 @@ p{
 .portfolioTitleLocation{
     position: absolute;
   top: 55%;
- 
 }
 
 .portfolioTitle{
@@ -190,6 +189,31 @@ p{
   color: black;
 }
 
+/* @media (max-width: 575.98px) {
+  .btn-primary{
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: #ffffff;
+  }
+} */
+
+@media (max-width: 767.98px) {
+  .btn-primary{
+    font-size: 24pt;
+    font-weight: bold;
+  }
+}
+
+/*
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
 @media (max-width: 992px) {
   .container {
     width: 100%;
@@ -197,14 +221,34 @@ p{
   }
 }
 
+@media (max-width: 576px) {
+  .btn-primary{
+    font-size: 100pt;
+  }
+} */
+/*
 @media (max-width: 768px){
   .btn-primary{
     font-size: 14pt;
   }
 }
+*/
 
-@media (min-width: 992px) {
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+
+  /* .btn-primary {
+    font-size: 28pt;
+  } */
+}
+
+/* @media (min-width: 992px) {
   .btn-primary{
     font-weight: bold;
   }
-}
+} */
+
