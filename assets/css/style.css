@@ -61,6 +61,11 @@ body{
   border-color: #4aaaa5;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20pt;
+  padding-top: 12px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+
 }
 
 .btn-primary:hover{
@@ -197,22 +202,60 @@ p{
   }
 } */
 
-@media (max-width: 767.98px) {
-  .btn-primary{
-    font-size: 24pt;
-    font-weight: bold;
+/* @media (max-width: 575.98px) {
+  .portfolioTitleLocation{
+    top: 45%;
+  } 
+} */
+
+/* @media (min-width: 576px) and (max-width: 767.98px) { */
+
+  @media (max-width: 767.98px) { 
+  .portfolioTitleLocation{
+    top: 63%;
+  } 
+
+  h3 {
+    font-size: 22pt;
+  }
+
+  p{
+    font-size:20px;
   }
 }
 
-/*
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .portfolioTitleLocation{
+    top: 59%;
+  }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+  h3 {
+    font-size: 20pt;
+  }
+}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .portfolioTitleLocation{
+    top: 59%;
+  }
+
+  h3 {
+    font-size: 20pt;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-primary {
+    padding-top: 18px;
+    padding-bottom: 12px;
+  }
+
+  .portfolioTitleLocation{
+    top: 60%;
+  }
+} 
+
 
 @media (max-width: 992px) {
   .container {
@@ -220,35 +263,3 @@ p{
     max-width: none;
   }
 }
-
-@media (max-width: 576px) {
-  .btn-primary{
-    font-size: 100pt;
-  }
-} */
-/*
-@media (max-width: 768px){
-  .btn-primary{
-    font-size: 14pt;
-  }
-}
-*/
-
-
-@media (max-width: 992px) {
-  .container {
-    width: 100%;
-    max-width: none;
-  }
-
-  /* .btn-primary {
-    font-size: 28pt;
-  } */
-}
-
-/* @media (min-width: 992px) {
-  .btn-primary{
-    font-weight: bold;
-  }
-} */
-
