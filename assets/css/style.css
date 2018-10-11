@@ -30,6 +30,8 @@ h3 {
 
 h4 {
   font-size: 20pt;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
 
 .noPadding {
@@ -72,11 +74,19 @@ header{
   position: relative; 
 }
 
-.btn-primary:hover{
-  background-color: #398583;
-  border-color: #398583;
+.btn-primary:hover, .btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+  border-style: none;
   color: black;
   text-decoration: none;
+  outline: none;
+  box-shadow: none!important;
 }
 
 /* Navbar */
@@ -127,11 +137,18 @@ header{
 
 .outer {
   position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
+
 .inner {
   position: absolute;
   bottom: 3%;
   width: 100%;
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+  height: 30%;
 }
 
 .btnPortfolio {
@@ -139,8 +156,12 @@ header{
   border-color: #4aaaa5;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20pt;
-  padding: 12px 3px 6px;
+  padding: 0px;
+  margin: auto;
   border-radius: 0;
+  /* height: 100%; */
+  position: absolute;
+  top: 28%;
 }
 
 /* Contact Page */
@@ -169,6 +190,10 @@ header{
 @media (min-width: 768px) and (max-width: 991.98px) {
   h4 {
     font-size:18pt;
+  }
+
+  p{
+    font-size: 18pt;
   }
 }
 
