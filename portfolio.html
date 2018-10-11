@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>Alex Reventlow</title>
+  <title>Alex Reventlow: Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -15,13 +15,11 @@
 
 <body>
 
-<header id="whiteBackground">
+<header class="bg-white">
   <div class="container bg-white" id="navContainer">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white noVertPadding">
-      <a class="navbar-brand name" href="#">
-          <div id="nameTitle">
-            <h3 class="font-weight-bold">Alex Reventlow</h3>
-          </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-white noPadding">
+      <a class="navbar-brand navLogo" href="#">
+        <h3 class="font-weight-bold">Alex Reventlow</h3>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,10 +27,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link rightBorder" href="./index.html">&nbsp; About &nbsp;</a>
+            <a class="nav-link navbarMenuDivider" href="./index.html">&nbsp; About &nbsp;</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link rightBorder" href="./portfolio.html">&nbsp; Portfolio &nbsp; <span class="sr-only">(current)</span></a>
+            <a class="nav-link navbarMenuDivider" href="./portfolio.html">&nbsp; Portfolio &nbsp; <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">&nbsp; Contact</a>
@@ -56,43 +54,63 @@
       <hr class="hrFat">
     </div>
     <div class="row">
-      <div class="col-8 col-md-5 col-lg-4 offset-2 offset-md-0 offset-lg-0">
-        <img src="./assets/images/catscratch.jpg" class="img-fluid vertPadding" alt="Cat Scratch Game">
-        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="https://scratch.mit.edu/projects/246371322/">
-          <h3 class="font-weight-bold">Cat Scratch Game</h3>
-        </a>
+      <div class="col-10 col-sm-6 col-md-5 offset-1 offset-sm-0 offset-md-1">
+        <div class="outer portfolioVertPadding">
+          <img src="./assets/images/catscratch.jpg" class="img-fluid" alt="Cat Scratch Game">
+          <div class="inner">
+            <a class="btn-lg btn-primary btn-block btnPortfolio text-center" href="https://scratch.mit.edu/projects/246371322/">
+              <h4 class="font-weight-bold">Cat Scratch Game</h4>
+            </a>
+          </div>
         </div>
-      <div class="col-8 col-md-5 col-lg-4 offset-2 offset-md-1 offset-lg-1">
-        <img src="./assets/images/skunk.jpg" class="img-fluid vertPadding" alt="Skunk">
-        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
-            <h3 class="font-weight-bold">Stinky Blankets</h3>
-        </a>
+      </div>
+      <div class="col-10 col-sm-6 col-md-5 offset-1 offset-sm-0 offset-md-0">
+        <div class="outer portfolioVertPadding">
+          <img src="./assets/images/skunk.jpg" class="img-fluid" alt="Skunk">
+          <div class="inner">
+            <a class="btn-lg btn-primary btn-block btnPortfolio text-center" href="#">
+              <h4 class="font-weight-bold">Stinky Blankets</h4>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row no-gutters">
-        <div class="col-8 col-md-5 col-lg-4 offset-2 offset-md-0 offset-lg-0">
-        <img src="./assets/images/garbage.jpg" class="img-fluid vertPadding" alt="Garbage">
-        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
-            <h3 class="font-weight-bold">Fashion Week</h3>
-        </a>
+    <div class="row">
+      <div class="col-10 col-sm-6 col-md-5 offset-1 offset-sm-0 offset-md-1">
+        <div class="outer portfolioVertPadding">
+          <img src="./assets/images/garbage.jpg" class="img-fluid" alt="Garbage">
+          <div class="inner">
+            <a class="btn-lg btn-primary btn-block btnPortfolio text-center" href="#">
+              <h4 class="font-weight-bold">Fashion Week</h4>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-8 col-md-5 col-lg-4 offset-2 offset-md-1 offset-lg-1">
-          <img src="./assets/images/eggs.jpg" class="img-fluid vertPadding" alt="Garbage">
-        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
-            <h3 class="font-weight-bold">Fun with the Dryer</h3>
-        </a>
+      <div class="col-10 col-sm-6 col-md-5 offset-1 offset-sm-0 offset-md-0">
+        <div class="outer portfolioVertPadding">
+          <img src="./assets/images/eggs.jpg" class="img-fluid" alt="Eggs">
+          <div class="inner">
+            <a class="btn-lg btn-primary btn-block btnPortfolio text-center" href="#">
+              <h4 class="font-weight-bold">Fun with the Dryer</h4>
+            </a>
+          </div>
+        </div>
+      </div>  
+    </div> 
+    <div class="row">
+      <div class="col-10 col-sm-6 col-md-5 offset-1 offset-sm-0 offset-md-1">
+        <div class="outer portfolioVertPadding">
+          <img src="./assets/images/salad.jpg" class="img-fluid" alt="Salid">
+          <div class="inner">
+            <a class="btn-lg btn-primary btn-block btnPortfolio text-center" href="#">
+              <h4 class="font-weight-bold">Happy Salad People</h4>
+            </a>
+          </div>      
+        </div>
       </div>
-    </div>    
-    <div class="row no-gutters">
-        <div class="col-8 col-md-5 col-lg-4 offset-2 offset-md-0 offset-lg-0">
-            <img src="./assets/images/salad.jpg" class="img-fluid vertPadding" alt="Garbage">
-        <a class="btn-lg btn-primary btn-block portfolioTitleLocation text-center" href="#">
-            <h3 class="font-weight-bold">Happy Salad People</h3>
-        </a>
-      </div>      
     </div>
   </div>
-      
+
   <footer class="footerMain">
     <div class="container">
       Copywrite © 2018
